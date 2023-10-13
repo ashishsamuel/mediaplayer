@@ -1,0 +1,6 @@
+routing 
+
+react-router-dom library is used for routing in react for setting path to components
+
+enclose the entire thing within browser router in index.js file
+
