@@ -95,7 +95,7 @@ function Category() {
             item?.allVideos&&
             <Row>
               {
-                item?.allVideos.map(card=>(
+                item?.allVideos?.map(card=>(
                   <Col sm={12}>
                     <VideoCard displayData={card} hideCategoryDeleteButton={true}/>
                   </Col>
